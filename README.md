@@ -1,9 +1,9 @@
 # OP Laskuri #
 
-This is a WordPress plugin (or more of a helper) that makes it easier you add
-OP calculator to your site without having to code anything.
+This is a WordPress plugin (or more of a helper) that makes it easier
+to add OP calculator to your site without having to code anything.
 
-You need to have an OP merchant account. Read more about it at [OP Kauppiasportaali](https://kauppiasportaali.fi)
+You need an OP merchant account. Read more about it at [OP Kauppiasportaali](https://kauppiasportaali.fi)
 
 This does not work as is. You need files from OP. Read more below.
 
@@ -41,5 +41,8 @@ Log in to your WordPress admin and enable the `OP Laskuri` plugin.
 Edit any page and add the shortcode `[op-laskuri]` into its content.
 Save the page and see what it looks like.
 The calculator should appear where you added the shortcode.
+It should look something like the image below.
+
+![Screenshot of the OP Laskuri that the shortcode should output.](screenshot.png)
 
 There is an option to get the webstore version HTML by adding an attribute to the shortcode: `[op-laskuri shop=1]`
